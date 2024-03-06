@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    background-color: var(--background-color);
+    width: 350px;
+    height: 480px;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+}
+.mainContainer h1{
+    text-align: center;
+    color: var(--purple-color);
+}
+.signUpInput{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.inputBox{
+    display: flex;
+    border-bottom: 1px solid var(--purple-color);
+    padding: 4px;
+    width: 18rem;
+    margin-left: 2rem;
+}
+.inputBox input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color: var(--white-color);
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 10px;
+    width: 10rem;
+    background-color: var(--purple-color);
+    border: none;
+    color: var(--white-color);
+    border-radius: 2rem;
+}
+.button button:hover{
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--purple-color);
+    border: 1px solid var(--purple-color);
+}
+.account{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-size: 0.8rem;
+}
+.account button{
+    border: none;
+    background-color: transparent;
+    color: var(--purple-color);
+    border-bottom: 1px solid var(--purple-color);
+}
+.account button:hover{
+    cursor: pointer;
+    color: var(--hover-color);
+}
+.icon{
+    color: var(--purple-color);
+}
+.eyes{
+    color: var(--purple-color);
+    margin-left: 3rem;
+}
+.eye{
+    color: var(--purple-color);
+    margin-left: 3rem;
+}
+.invalidPassword{
+    color: red;
+    font-size: 0.8rem;
+}
+@media(max-width:650px){
+    .mainContainer{
+        width: 260px;
+        height: 455px;
+    }.inputBox{
+        width: 14.5rem;
+        margin-left: 0.9rem;
+    }::-webkit-input-placeholder{
+        padding: 8px;
+        font-size: 0.7rem;
+    }.eyes{
+        margin-left: 0rem;
+    }.eye{
+        margin-left: 0rem;
+    }
+    .button button{
+        padding: 8px;
+        width: 5rem;
+    }.account{
+        gap: 0.4rem;
+        margin-top: 0.5rem;
+        margin-left: 2.8rem;
+        font-size: 0.7rem;
+    }.account button{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
+@media(max-width:450px){
+    .mainContainer{
+        width: 220px;
+        height: 400px;
+    }.inputBox{
+       width: 190px;
+       margin-left: 15px;
+    }.mainContainer h1{
+       font-size: 20px;
+    }
+    .signUpInput{
+        gap: 35px;
+        margin-top: 2rem;
+    }
+    .eyes{
+        position: absolute;
+        left: 290px;
+    }.eye{
+        position: absolute;
+        left: 290px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 10px;
+    }
+    .button button{
+        width: 100px;
+    }
+    
+}
+@media(max-width:390px){
+    .account{
+        margin-left: 30px;
+    }
+    .eyes{
+        position: absolute;
+        left: 250px;
+    }.eye{
+        position: absolute;
+        left: 250px;
+    }
+}
+@media(max-width:305px){
+    .eyes{
+        position: absolute;
+        left: 220px;
+    }.eye{
+        position: absolute;
+        left: 220px;
+    }
+}
+@media(max-width:275px){
+    .eyes{
+        position: absolute;
+        left: 210px;
+    }.eye{
+        position: absolute;
+        left: 210px;
+    }
+}

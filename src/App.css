@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+:root{
+    --background-color:  rgb(194, 183, 202);
+    --white-color: #ffffffc4;
+    --grey-color: rgb(128, 128, 128);
+    --purple-color: rgba(108, 3, 194, 0.753);
+    --box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    --hover-color: rgb(80, 11, 240);
+}
+
